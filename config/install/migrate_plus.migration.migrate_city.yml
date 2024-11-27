@@ -1,0 +1,16 @@
+id: migrate_city
+label: 'Migrate mongo city to Drupal city'
+source:
+  plugin: mongodb_source
+  ids:
+    _id:
+      type: string
+
+process:
+  label: city
+  latitude: loc/0
+  longitude: loc/1
+  population: pop
+  state: state
+destination:
+  plugin: 'entity:mongo_migration_city'

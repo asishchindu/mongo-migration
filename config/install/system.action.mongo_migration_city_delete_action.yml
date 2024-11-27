@@ -1,0 +1,10 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - mongo_migration
+id: mongo_migration_city_delete_action
+label: 'Delete cities'
+type: mongo_migration_city
+plugin: entity:delete_action:mongo_migration_city
+configuration: {  }

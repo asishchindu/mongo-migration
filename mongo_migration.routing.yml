@@ -1,0 +1,7 @@
+entity.mongo_migration_city.settings:
+  path: 'admin/structure/migration-qed42-city'
+  defaults:
+    _form: '\Drupal\mongo_migration\Form\CitySettingsForm'
+    _title: 'City'
+  requirements:
+    _permission: 'administer mongo_migration_city'

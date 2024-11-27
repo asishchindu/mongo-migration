@@ -1,0 +1,3 @@
+administer mongo_migration_city:
+  title: 'Administer cities'
+  restrict access: true

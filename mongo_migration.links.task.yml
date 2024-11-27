@@ -1,0 +1,22 @@
+entity.mongo_migration_city.settings:
+  title: 'Settings'
+  route_name: entity.mongo_migration_city.settings
+  base_route: entity.mongo_migration_city.settings
+entity.mongo_migration_city.view:
+  title: 'View'
+  route_name: entity.mongo_migration_city.canonical
+  base_route: entity.mongo_migration_city.canonical
+entity.mongo_migration_city.edit_form:
+  title: 'Edit'
+  route_name: entity.mongo_migration_city.edit_form
+  base_route: entity.mongo_migration_city.canonical
+entity.mongo_migration_city.delete_form:
+  title: 'Delete'
+  route_name: entity.mongo_migration_city.delete_form
+  base_route: entity.mongo_migration_city.canonical
+  weight: 10
+entity.mongo_migration_city.collection:
+  title: 'Cities'
+  route_name: entity.mongo_migration_city.collection
+  base_route: system.admin_content
+  weight: 10

@@ -1,0 +1,5 @@
+mongo_migration_city.add_form:
+  title: 'Add city'
+  route_name: entity.mongo_migration_city.add_form
+  appears_on:
+    - entity.mongo_migration_city.collection

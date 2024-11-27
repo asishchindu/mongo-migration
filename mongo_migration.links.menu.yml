@@ -1,0 +1,11 @@
+entity.mongo_migration_city.settings:
+  title: 'City'
+  description: 'Configure a City entity type.'
+  route_name:  entity.mongo_migration_city.settings
+  parent: system.admin_structure
+
+entity.mongo_migration_city.collection:
+  title: 'Cities'
+  description: 'List of cities.'
+  route_name: entity.mongo_migration_city.collection
+  parent: system.admin_content
